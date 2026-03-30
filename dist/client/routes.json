@@ -1,0 +1,23 @@
+[
+  {
+    "path": "/"
+  },
+  {
+    "path": "/scan"
+  },
+  {
+    "path": "/review"
+  },
+  {
+    "path": "/auth"
+  },
+  {
+    "path": "/template"
+  },
+  {
+    "path": "/send"
+  },
+  {
+    "path": "/log"
+  }
+]

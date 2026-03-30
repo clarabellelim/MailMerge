@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <script type="module">import { injectIntoGlobalHook } from "/@react-refresh";
+injectIntoGlobalHook(window);
+window.$RefreshReg$ = () => {};
+window.$RefreshSig$ = () => (type) => type;</script>
+
+  <script type="module" src="/@vite/client"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="{{appAvatar}}">
+  <title>{{appName}}</title>
+  <script>
+    try {
+      window.__platform__ = JSON.parse('{{{__platform__}}}');
+    } catch (e) {
+      console.error('Failed to parse __platform__', e);
+    }
+  </script>
+  <script type="module" src="/@error-overlay.js"></script>
+  <script type="module" src="/@runtime.js"></script>
+  <script>
+        window.csrfToken = "{{csrfToken}}";
+        window.userId = "{{userId}}";
+        window.tenantId = "{{tenantId}}";
+        window.appId = "{{appId}}";
+        window.ENVIRONMENT = "{{environment}}";
+        const appInfo = {
+          name: "{{appName}}",
+          avatar: "{{{appAvatar}}}",
+          description: "{{appDescription}}",
+        };
+        if (appInfo.name) {
+          window._appInfo = appInfo;
+        }
+    </script>
+  <script>
+    const slardarScript = document.createElement('script');
+    slardarScript.src = 'https://lf3-short.ibytedapm.com/slardar/fe/sdk-web/browser.cn.js?bid=apaas_miaoda&globalName=KSlardarWeb';
+    slardarScript.crossOrigin = 'anonymous';
+
+    // Add onload event handler
+    slardarScript.onload = function() {
+      // Initialize after script loads
+      if (window.KSlardarWeb) {
+        window.KSlardarWeb('context.merge', {
+          tenantId: window.tenantId ?? '',
+          appId: window.appId ?? '',
+        });
+        window.KSlardarWeb('init', {
+          bid: 'apaas_miaoda',
+          env: window.ENVIRONMENT || 'online',
+          userId: window.userId ?? '',
+        });
+        window.KSlardarWeb('start');
+      }
+    };
+
+    // Add error handler
+    slardarScript.onerror = function() {
+      console.warn('Failed to load Slardar script');
+    };
+
+    // Add script to page
+    document.head.appendChild(slardarScript);
+  </script>
+  <script src="https://sf3-scmcdn-cn.feishucdn.com/obj/unpkg/byted/performance/0.1.2/dist/performance.iife.js" crossorigin="anonymous" defer></script>
+  <script>
+  (function (win, export_obj) {
+    win['LogAnalyticsObject'] = export_obj;
+    if (!win[export_obj]) {
+      function _collect() {
+        _collect.q.push(arguments);
+      }
+      _collect.q = _collect.q || [];
+      win[export_obj] = _collect;
+    }
+    win[export_obj].l = +new Date();
+  })(window, 'collectEvent');
+
+  // Create tea sdk script element
+    const teaScript = document.createElement('script');
+    teaScript.src = 'https://lf3-cdn-tos.bytescm.com/obj/static/log-sdk/collect/5.1/collect.js';
+    teaScript.crossOrigin = 'anonymous';
+    teaScript.async = true;
+
+    // Add error handler
+    teaScript.onerror = function() {
+      console.warn('Failed to load Tea script');
+    };
+
+    // Add script to page
+    document.head.appendChild(teaScript);
+  </script>
+
+    <meta property="og:title" content="{{appName}}">
+  
+    <meta property="og:description" content="{{appDescription}}">
+  
+    <meta property="og:image" content="{{appAvatar}}">
+  
+    <meta property="og:url" content="{{currentUrl}}">
+  
+    <meta name="description" content="{{appDescription}}">
+  </head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/client/src/index.tsx"></script>
+</body>
+
+</html>
