@@ -1,0 +1,1581 @@
+[2026-03-30 15:58:36] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 15:58:36] [client] 
+[2026-03-30 15:58:36] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 15:58:36] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 15:58:36] [client] 
+[2026-03-30 15:58:39] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 15:58:39] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 15:58:39] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 15:58:39] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 15:58:39] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 15:58:39] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 15:58:39] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 15:58:39] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 15:58:39] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 15:58:39] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 15:58:39] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 15:58:39] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 15:58:39] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 15:58:39] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 15:58:39] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 15:58:39] [client] 
+[2026-03-30 15:58:39] [client]   VITE v7.3.1  ready in 2458 ms
+[2026-03-30 15:58:39] [client] 
+[2026-03-30 15:58:39] [client]   ➜  Local:   http://localhost:8080/
+[2026-03-30 15:58:40] [client] [Proxy] Error: 
+[2026-03-30 15:58:40] [client] [Proxy] Connection error, waiting for service recovery...
+[2026-03-30 15:58:46] [client] (node:58409) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/tailwind.config.ts?id=1774857520712 is not specified and it doesn't parse as CommonJS.
+[2026-03-30 15:58:46] [client] Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+[2026-03-30 15:58:46] [client] To eliminate this warning, add "type": "module" to /Users/clarabellelim/Downloads/app_4ju450bfspzwc/package.json.
+[2026-03-30 15:58:46] [client] (Use `node --trace-warnings ...` to show where the warning was created)
+[2026-03-30 15:58:47] [client] [Proxy] Service did not recover within timeout, returning 502
+[2026-03-30 15:58:47] [client] 
+[2026-03-30 15:58:47] [client] A PostCSS plugin did not pass the `from` option to `postcss.parse`. This may cause imported assets to be incorrectly transformed. If you've recently added a PostCSS plugin that raised this warning, please contact the package author to fix the issue.
+[2026-03-30 15:58:58] [client] [Proxy] Error: 
+[2026-03-30 15:58:58] [client] [Proxy] Connection error, waiting for service recovery...
+[2026-03-30 15:59:03] [client] [Proxy] Service did not recover within timeout, returning 502
+[2026-03-30 15:59:06] [client] [api-list] Failed to fetch routes: TypeError: fetch failed
+[2026-03-30 15:59:06] [client]     at node:internal/deps/undici/undici:16416:13
+[2026-03-30 15:59:06] [client]     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[2026-03-30 15:59:06] [client]     at async fetchRoutesFromBackend (/Users/clarabellelim/Downloads/app_4ju450bfspzwc/node_modules/@lark-apaas/devtool-kits/dist/index.cjs:3475:20)
+[2026-03-30 15:59:06] [client]     at async /Users/clarabellelim/Downloads/app_4ju450bfspzwc/node_modules/@lark-apaas/devtool-kits/dist/index.cjs:3510:22 {
+[2026-03-30 15:59:06] [client]   [cause]: AggregateError [ECONNREFUSED]: 
+[2026-03-30 15:59:06] [client]       at internalConnectMultiple (node:net:1134:18)
+[2026-03-30 15:59:06] [client]       at afterConnectMultiple (node:net:1715:7) {
+[2026-03-30 15:59:06] [client]     code: 'ECONNREFUSED',
+[2026-03-30 15:59:06] [client]     [errors]: [ [Error], [Error] ]
+[2026-03-30 15:59:06] [client]   }
+[2026-03-30 15:59:06] [client] }
+[2026-03-30 16:00:26] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 16:00:26] [client] 
+[2026-03-30 16:00:26] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 16:00:26] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 16:00:26] [client] 
+[2026-03-30 16:00:31] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 16:00:31] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 16:00:31] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 16:00:31] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 16:00:31] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 16:00:31] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 16:00:31] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 16:00:31] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 16:00:31] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 16:00:31] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 16:00:31] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 16:00:31] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 16:00:31] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 16:00:31] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 16:00:31] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 16:00:31] [client] 
+[2026-03-30 16:00:31] [client]   VITE v7.3.1  ready in 4659 ms
+[2026-03-30 16:00:31] [client] 
+[2026-03-30 16:00:31] [client]   ➜  Local:   http://localhost:8080/
+[2026-03-30 16:01:02] [client] (node:60293) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/tailwind.config.ts?id=1774857644495 is not specified and it doesn't parse as CommonJS.
+[2026-03-30 16:01:02] [client] Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+[2026-03-30 16:01:02] [client] To eliminate this warning, add "type": "module" to /Users/clarabellelim/Downloads/app_4ju450bfspzwc/package.json.
+[2026-03-30 16:01:02] [client] (Use `node --trace-warnings ...` to show where the warning was created)
+[2026-03-30 16:01:05] [client] 
+[2026-03-30 16:01:05] [client] A PostCSS plugin did not pass the `from` option to `postcss.parse`. This may cause imported assets to be incorrectly transformed. If you've recently added a PostCSS plugin that raised this warning, please contact the package author to fix the issue.
+[2026-03-30 16:03:46] [client] [Proxy] Error: 
+[2026-03-30 16:03:46] [client] [Proxy] Connection error, waiting for service recovery...
+[2026-03-30 16:03:51] [client] [Proxy] Service did not recover within timeout, returning 502
+[2026-03-30 16:04:54] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 16:04:55] [client] 
+[2026-03-30 16:04:55] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 16:04:55] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 16:04:55] [client] 
+[2026-03-30 16:04:59] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 16:04:59] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 16:04:59] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 16:04:59] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 16:04:59] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 16:04:59] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 16:04:59] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 16:04:59] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 16:04:59] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 16:04:59] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 16:04:59] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 16:04:59] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 16:04:59] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 16:04:59] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 16:04:59] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 16:04:59] [client] error when starting dev server:
+[2026-03-30 16:04:59] [client] Error: Port 8080 is already in use
+[2026-03-30 16:04:59] [client]     at Server.onError$1 (file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/node_modules/vite/dist/node/chunks/config.js:14933:28)
+[2026-03-30 16:04:59] [client]     at Server.emit (node:events:508:28)
+[2026-03-30 16:04:59] [client]     at emitErrorNT (node:net:1976:8)
+[2026-03-30 16:04:59] [client]     at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[2026-03-30 16:05:04] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 16:05:04] [client] 
+[2026-03-30 16:05:04] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 16:05:04] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 16:05:04] [client] 
+[2026-03-30 16:05:06] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 16:05:06] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 16:05:06] [client] 
+[2026-03-30 16:05:06] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 16:05:06] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 16:05:06] [client] 
+[2026-03-30 16:05:06] [client] 
+[2026-03-30 16:05:06] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 16:05:06] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 16:05:06] [client] 
+[2026-03-30 16:05:07] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 16:05:07] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 16:05:07] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 16:05:07] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 16:05:07] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 16:05:07] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 16:05:07] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 16:05:07] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 16:05:07] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 16:05:07] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 16:05:07] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 16:05:07] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 16:05:07] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 16:05:07] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 16:05:07] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 16:05:07] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 16:05:07] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 16:05:07] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 16:05:07] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 16:05:07] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 16:05:07] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 16:05:07] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 16:05:07] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 16:05:07] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 16:05:07] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 16:05:07] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 16:05:07] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 16:05:07] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 16:05:07] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 16:05:07] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 16:05:07] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 16:05:07] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 16:05:07] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 16:05:07] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 16:05:07] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 16:05:07] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 16:05:07] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 16:05:07] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 16:05:07] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 16:05:07] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 16:05:07] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 16:05:07] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 16:05:07] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 16:05:07] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 16:05:07] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 16:05:08] [client] 
+[2026-03-30 16:05:08] [client]   VITE v7.3.1  ready in 1334 ms
+[2026-03-30 16:05:08] [client] 
+[2026-03-30 16:05:08] [client]   ➜  Local:   http://localhost:8080/
+[2026-03-30 16:05:08] [client] error when starting dev server:
+[2026-03-30 16:05:08] [client] error when starting dev server:
+[2026-03-30 16:05:08] [client] Error: Port 8080 is already in use
+[2026-03-30 16:05:08] [client]     at Server.onError$1 (file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/node_modules/vite/dist/node/chunks/config.js:14933:28)
+[2026-03-30 16:05:08] [client]     at Server.emit (node:events:508:28)
+[2026-03-30 16:05:08] [client]     at emitErrorNT (node:net:1976:8)
+[2026-03-30 16:05:08] [client]     at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[2026-03-30 16:05:08] [client] Error: Port 8080 is already in use
+[2026-03-30 16:05:08] [client]     at Server.onError$1 (file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/node_modules/vite/dist/node/chunks/config.js:14933:28)
+[2026-03-30 16:05:08] [client]     at Server.emit (node:events:508:28)
+[2026-03-30 16:05:08] [client]     at emitErrorNT (node:net:1976:8)
+[2026-03-30 16:05:08] [client]     at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[2026-03-30 16:05:15] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 16:05:15] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 16:05:15] [client] 
+[2026-03-30 16:05:15] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 16:05:15] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 16:05:15] [client] 
+[2026-03-30 16:05:15] [client] 
+[2026-03-30 16:05:15] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 16:05:15] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 16:05:15] [client] 
+[2026-03-30 16:05:16] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 16:05:16] [client] 
+[2026-03-30 16:05:16] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 16:05:16] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 16:05:16] [client] 
+[2026-03-30 16:05:18] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 16:05:18] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 16:05:18] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 16:05:18] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 16:05:18] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 16:05:18] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 16:05:18] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 16:05:18] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 16:05:18] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 16:05:18] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 16:05:18] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 16:05:18] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 16:05:18] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 16:05:18] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 16:05:18] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 16:05:18] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 16:05:18] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 16:05:18] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 16:05:18] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 16:05:18] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 16:05:18] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 16:05:18] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 16:05:18] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 16:05:18] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 16:05:18] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 16:05:18] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 16:05:18] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 16:05:18] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 16:05:18] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 16:05:18] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 16:05:18] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 16:05:18] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 16:05:18] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 16:05:18] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 16:05:18] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 16:05:18] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 16:05:18] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 16:05:18] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 16:05:18] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 16:05:18] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 16:05:18] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 16:05:18] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 16:05:18] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 16:05:18] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 16:05:18] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 16:05:18] [client] 
+[2026-03-30 16:05:18] [client]   VITE v7.3.1  ready in 1956 ms
+[2026-03-30 16:05:18] [client] 
+[2026-03-30 16:05:18] [client]   ➜  Local:   http://localhost:8080/
+[2026-03-30 16:05:18] [client] error when starting dev server:
+[2026-03-30 16:05:18] [client] Error: Port 8080 is already in use
+[2026-03-30 16:05:18] [client]     at Server.onError$1 (file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/node_modules/vite/dist/node/chunks/config.js:14933:28)
+[2026-03-30 16:05:18] [client]     at Server.emit (node:events:508:28)
+[2026-03-30 16:05:18] [client]     at emitErrorNT (node:net:1976:8)
+[2026-03-30 16:05:18] [client]     at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[2026-03-30 16:05:18] [client] error when starting dev server:
+[2026-03-30 16:05:18] [client] Error: Port 8080 is already in use
+[2026-03-30 16:05:18] [client]     at Server.onError$1 (file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/node_modules/vite/dist/node/chunks/config.js:14933:28)
+[2026-03-30 16:05:18] [client]     at Server.emit (node:events:508:28)
+[2026-03-30 16:05:18] [client]     at emitErrorNT (node:net:1976:8)
+[2026-03-30 16:05:18] [client]     at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[2026-03-30 16:05:30] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 16:05:30] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 16:05:30] [client] 
+[2026-03-30 16:05:30] [client] 
+[2026-03-30 16:05:30] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 16:05:30] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 16:05:30] [client] 
+[2026-03-30 16:05:30] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 16:05:30] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 16:05:30] [client] 
+[2026-03-30 16:05:31] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 16:05:31] [client] 
+[2026-03-30 16:05:31] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 16:05:31] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 16:05:31] [client] 
+[2026-03-30 16:05:34] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 16:05:34] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 16:05:34] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 16:05:34] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 16:05:34] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 16:05:34] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 16:05:34] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 16:05:34] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 16:05:34] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 16:05:34] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 16:05:34] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 16:05:34] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 16:05:34] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 16:05:34] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 16:05:34] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 16:05:34] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 16:05:34] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 16:05:34] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 16:05:34] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 16:05:34] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 16:05:34] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 16:05:34] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 16:05:34] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 16:05:34] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 16:05:34] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 16:05:34] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 16:05:34] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 16:05:34] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 16:05:34] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 16:05:34] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 16:05:34] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 16:05:34] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 16:05:34] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 16:05:34] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 16:05:34] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 16:05:34] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 16:05:34] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 16:05:34] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 16:05:34] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 16:05:34] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 16:05:34] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 16:05:34] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 16:05:34] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 16:05:34] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 16:05:34] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 16:05:35] [client] 
+[2026-03-30 16:05:35] [client]   VITE v7.3.1  ready in 5024 ms
+[2026-03-30 16:05:35] [client] 
+[2026-03-30 16:05:35] [client]   ➜  Local:   http://localhost:8080/
+[2026-03-30 16:05:35] [client] error when starting dev server:
+[2026-03-30 16:05:35] [client] Error: Port 8080 is already in use
+[2026-03-30 16:05:35] [client]     at Server.onError$1 (file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/node_modules/vite/dist/node/chunks/config.js:14933:28)
+[2026-03-30 16:05:35] [client]     at Server.emit (node:events:508:28)
+[2026-03-30 16:05:35] [client]     at emitErrorNT (node:net:1976:8)
+[2026-03-30 16:05:35] [client]     at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[2026-03-30 16:05:36] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 16:05:36] [client] 
+[2026-03-30 16:05:36] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 16:05:36] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 16:05:36] [client] 
+[2026-03-30 16:05:38] [client] 
+[2026-03-30 16:05:38] [client]   VITE v7.3.1  ready in 6749 ms
+[2026-03-30 16:05:38] [client] 
+[2026-03-30 16:05:38] [client]   ➜  Local:   http://localhost:8080/
+[2026-03-30 16:05:41] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 16:05:41] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 16:05:41] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 16:05:41] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 16:05:41] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 16:05:41] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 16:05:41] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 16:05:41] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 16:05:41] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 16:05:41] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 16:05:41] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 16:05:41] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 16:05:41] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 16:05:41] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 16:05:41] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 16:05:41] [client] 
+[2026-03-30 16:05:41] [client]   VITE v7.3.1  ready in 4768 ms
+[2026-03-30 16:05:41] [client] 
+[2026-03-30 16:05:41] [client]   ➜  Local:   http://localhost:8081/
+[2026-03-30 16:05:54] [client] (node:64747) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/tailwind.config.ts?id=1774857947206 is not specified and it doesn't parse as CommonJS.
+[2026-03-30 16:05:54] [client] Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+[2026-03-30 16:05:54] [client] To eliminate this warning, add "type": "module" to /Users/clarabellelim/Downloads/app_4ju450bfspzwc/package.json.
+[2026-03-30 16:05:54] [client] (Use `node --trace-warnings ...` to show where the warning was created)
+[2026-03-30 16:05:54] [client] 
+[2026-03-30 16:05:54] [client] A PostCSS plugin did not pass the `from` option to `postcss.parse`. This may cause imported assets to be incorrectly transformed. If you've recently added a PostCSS plugin that raised this warning, please contact the package author to fix the issue.
+[2026-03-30 16:05:55] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 16:05:56] [client] 
+[2026-03-30 16:05:56] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 16:05:56] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 16:05:56] [client] 
+[2026-03-30 16:05:58] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 16:05:58] [client] 
+[2026-03-30 16:05:58] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 16:05:58] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 16:05:58] [client] 
+[2026-03-30 16:05:59] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 16:05:59] [client] 
+[2026-03-30 16:05:59] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 16:05:59] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 16:05:59] [client] 
+[2026-03-30 16:06:02] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 16:06:02] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 16:06:02] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 16:06:02] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 16:06:02] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 16:06:02] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 16:06:02] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 16:06:02] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 16:06:02] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 16:06:02] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 16:06:02] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 16:06:02] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 16:06:02] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 16:06:02] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 16:06:02] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 16:06:02] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 16:06:02] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 16:06:02] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 16:06:02] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 16:06:02] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 16:06:02] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 16:06:02] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 16:06:02] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 16:06:02] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 16:06:02] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 16:06:02] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 16:06:02] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 16:06:02] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 16:06:02] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 16:06:02] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 16:06:02] [client] 
+[2026-03-30 16:06:02] [client]   VITE v7.3.1  ready in 3961 ms
+[2026-03-30 16:06:02] [client] 
+[2026-03-30 16:06:02] [client]   ➜  Local:   http://localhost:8080/
+[2026-03-30 16:06:02] [client] error when starting dev server:
+[2026-03-30 16:06:02] [client] Error: Port 8080 is already in use
+[2026-03-30 16:06:02] [client]     at Server.onError$1 (file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/node_modules/vite/dist/node/chunks/config.js:14933:28)
+[2026-03-30 16:06:02] [client]     at Server.emit (node:events:508:28)
+[2026-03-30 16:06:02] [client]     at emitErrorNT (node:net:1976:8)
+[2026-03-30 16:06:02] [client]     at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[2026-03-30 16:06:06] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 16:06:06] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 16:06:06] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 16:06:06] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 16:06:06] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 16:06:06] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 16:06:06] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 16:06:06] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 16:06:06] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 16:06:06] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 16:06:06] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 16:06:06] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 16:06:06] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 16:06:06] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 16:06:06] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 16:06:06] [client] 
+[2026-03-30 16:06:06] [client]   VITE v7.3.1  ready in 5767 ms
+[2026-03-30 16:06:06] [client] 
+[2026-03-30 16:06:06] [client]   ➜  Local:   http://localhost:8080/
+[2026-03-30 16:06:39] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 16:06:39] [client] 
+[2026-03-30 16:06:39] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 16:06:39] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 16:06:39] [client] 
+[2026-03-30 16:06:39] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 16:06:39] [client] 
+[2026-03-30 16:06:39] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 16:06:39] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 16:06:39] [client] 
+[2026-03-30 16:06:41] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 16:06:41] [client] 
+[2026-03-30 16:06:41] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 16:06:41] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 16:06:41] [client] 
+[2026-03-30 16:06:41] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 16:06:41] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 16:06:41] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 16:06:41] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 16:06:41] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 16:06:41] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 16:06:41] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 16:06:41] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 16:06:41] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 16:06:41] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 16:06:41] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 16:06:41] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 16:06:41] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 16:06:41] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 16:06:41] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 16:06:41] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 16:06:41] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 16:06:41] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 16:06:41] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 16:06:41] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 16:06:41] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 16:06:41] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 16:06:41] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 16:06:41] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 16:06:41] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 16:06:41] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 16:06:41] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 16:06:41] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 16:06:41] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 16:06:41] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 16:06:41] [client] 
+[2026-03-30 16:06:41] [client]   VITE v7.3.1  ready in 2539 ms
+[2026-03-30 16:06:41] [client] 
+[2026-03-30 16:06:41] [client]   ➜  Local:   http://localhost:8080/
+[2026-03-30 16:06:41] [client] error when starting dev server:
+[2026-03-30 16:06:41] [client] Error: Port 8080 is already in use
+[2026-03-30 16:06:41] [client]     at Server.onError$1 (file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/node_modules/vite/dist/node/chunks/config.js:14933:28)
+[2026-03-30 16:06:41] [client]     at Server.emit (node:events:508:28)
+[2026-03-30 16:06:41] [client]     at emitErrorNT (node:net:1976:8)
+[2026-03-30 16:06:41] [client]     at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[2026-03-30 16:06:42] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 16:06:42] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 16:06:42] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 16:06:42] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 16:06:42] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 16:06:42] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 16:06:42] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 16:06:42] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 16:06:42] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 16:06:42] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 16:06:42] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 16:06:42] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 16:06:42] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 16:06:42] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 16:06:42] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 16:06:42] [client] error when starting dev server:
+[2026-03-30 16:06:42] [client] Error: Port 8080 is already in use
+[2026-03-30 16:06:42] [client]     at Server.onError$1 (file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/node_modules/vite/dist/node/chunks/config.js:14933:28)
+[2026-03-30 16:06:42] [client]     at Server.emit (node:events:508:28)
+[2026-03-30 16:06:42] [client]     at emitErrorNT (node:net:1976:8)
+[2026-03-30 16:06:42] [client]     at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[2026-03-30 16:07:45] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 16:07:45] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 16:07:45] [client] 
+[2026-03-30 16:07:45] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 16:07:45] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 16:07:45] [client] 
+[2026-03-30 16:07:45] [client] 
+[2026-03-30 16:07:45] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 16:07:45] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 16:07:45] [client] 
+[2026-03-30 16:07:46] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 16:07:46] [client] 
+[2026-03-30 16:07:46] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 16:07:46] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 16:07:46] [client] 
+[2026-03-30 16:07:48] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 16:07:48] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 16:07:48] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 16:07:48] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 16:07:48] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 16:07:48] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 16:07:48] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 16:07:48] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 16:07:48] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 16:07:48] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 16:07:48] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 16:07:48] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 16:07:48] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 16:07:48] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 16:07:48] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 16:07:48] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 16:07:48] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 16:07:48] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 16:07:48] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 16:07:48] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 16:07:48] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 16:07:48] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 16:07:48] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 16:07:48] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 16:07:48] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 16:07:48] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 16:07:48] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 16:07:48] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 16:07:48] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 16:07:48] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 16:07:48] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 16:07:48] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 16:07:48] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 16:07:48] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 16:07:48] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 16:07:48] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 16:07:48] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 16:07:48] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 16:07:48] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 16:07:48] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 16:07:48] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 16:07:48] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 16:07:48] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 16:07:48] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 16:07:48] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 16:07:48] [client] 
+[2026-03-30 16:07:48] [client]   VITE v7.3.1  ready in 3185 ms
+[2026-03-30 16:07:48] [client] 
+[2026-03-30 16:07:48] [client]   ➜  Local:   http://localhost:8080/
+[2026-03-30 16:07:48] [client] error when starting dev server:
+[2026-03-30 16:07:48] [client] Error: Port 8080 is already in use
+[2026-03-30 16:07:48] [client]     at Server.onError$1 (file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/node_modules/vite/dist/node/chunks/config.js:14933:28)
+[2026-03-30 16:07:48] [client]     at Server.emit (node:events:508:28)
+[2026-03-30 16:07:48] [client]     at emitErrorNT (node:net:1976:8)
+[2026-03-30 16:07:48] [client]     at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[2026-03-30 16:07:48] [client] error when starting dev server:
+[2026-03-30 16:07:48] [client] Error: Port 8080 is already in use
+[2026-03-30 16:07:48] [client]     at Server.onError$1 (file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/node_modules/vite/dist/node/chunks/config.js:14933:28)
+[2026-03-30 16:07:48] [client]     at Server.emit (node:events:508:28)
+[2026-03-30 16:07:48] [client]     at emitErrorNT (node:net:1976:8)
+[2026-03-30 16:07:48] [client]     at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[2026-03-30 16:08:21] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 16:08:21] [client] 
+[2026-03-30 16:08:21] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 16:08:21] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 16:08:21] [client] 
+[2026-03-30 16:08:25] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 16:08:25] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 16:08:25] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 16:08:25] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 16:08:25] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 16:08:25] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 16:08:25] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 16:08:25] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 16:08:25] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 16:08:25] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 16:08:25] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 16:08:25] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 16:08:25] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 16:08:25] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 16:08:25] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 16:08:25] [client] 
+[2026-03-30 16:08:25] [client]   VITE v7.3.1  ready in 4136 ms
+[2026-03-30 16:08:25] [client] 
+[2026-03-30 16:08:25] [client]   ➜  Local:   http://localhost:8081/
+[2026-03-30 16:08:32] [client] (node:67224) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/tailwind.config.ts?id=1774858108485 is not specified and it doesn't parse as CommonJS.
+[2026-03-30 16:08:32] [client] Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+[2026-03-30 16:08:32] [client] To eliminate this warning, add "type": "module" to /Users/clarabellelim/Downloads/app_4ju450bfspzwc/package.json.
+[2026-03-30 16:08:32] [client] (Use `node --trace-warnings ...` to show where the warning was created)
+[2026-03-30 16:08:32] [client] 
+[2026-03-30 16:08:32] [client] A PostCSS plugin did not pass the `from` option to `postcss.parse`. This may cause imported assets to be incorrectly transformed. If you've recently added a PostCSS plugin that raised this warning, please contact the package author to fix the issue.
+[2026-03-30 16:08:52] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 16:08:52] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 16:08:52] [client] 
+[2026-03-30 16:08:52] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 16:08:52] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 16:08:52] [client] 
+[2026-03-30 16:08:52] [client] 
+[2026-03-30 16:08:52] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 16:08:52] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 16:08:52] [client] 
+[2026-03-30 16:08:53] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 16:08:53] [client] 
+[2026-03-30 16:08:53] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 16:08:53] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 16:08:53] [client] 
+[2026-03-30 16:08:53] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 16:08:53] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 16:08:53] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 16:08:53] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 16:08:53] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 16:08:53] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 16:08:53] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 16:08:53] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 16:08:53] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 16:08:53] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 16:08:53] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 16:08:53] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 16:08:53] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 16:08:53] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 16:08:53] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 16:08:53] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 16:08:53] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 16:08:53] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 16:08:53] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 16:08:53] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 16:08:53] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 16:08:53] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 16:08:53] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 16:08:53] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 16:08:53] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 16:08:53] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 16:08:53] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 16:08:53] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 16:08:53] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 16:08:53] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 16:08:53] [client] 
+[2026-03-30 16:08:53] [client]   VITE v7.3.1  ready in 1531 ms
+[2026-03-30 16:08:53] [client] 
+[2026-03-30 16:08:53] [client]   ➜  Local:   http://localhost:8080/
+[2026-03-30 16:08:53] [client] error when starting dev server:
+[2026-03-30 16:08:53] [client] Error: Port 8080 is already in use
+[2026-03-30 16:08:53] [client]     at Server.onError$1 (file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/node_modules/vite/dist/node/chunks/config.js:14933:28)
+[2026-03-30 16:08:53] [client]     at Server.emit (node:events:508:28)
+[2026-03-30 16:08:53] [client]     at emitErrorNT (node:net:1976:8)
+[2026-03-30 16:08:53] [client]     at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[2026-03-30 16:08:54] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 16:08:54] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 16:08:54] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 16:08:54] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 16:08:54] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 16:08:54] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 16:08:54] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 16:08:54] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 16:08:54] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 16:08:54] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 16:08:54] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 16:08:54] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 16:08:54] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 16:08:54] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 16:08:54] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 16:08:54] [client] error when starting dev server:
+[2026-03-30 16:08:54] [client] Error: Port 8080 is already in use
+[2026-03-30 16:08:54] [client]     at Server.onError$1 (file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/node_modules/vite/dist/node/chunks/config.js:14933:28)
+[2026-03-30 16:08:54] [client]     at Server.emit (node:events:508:28)
+[2026-03-30 16:08:54] [client]     at emitErrorNT (node:net:1976:8)
+[2026-03-30 16:08:54] [client]     at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[2026-03-30 16:09:37] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 16:09:37] [client] 
+[2026-03-30 16:09:37] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 16:09:37] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 16:09:37] [client] 
+[2026-03-30 16:09:40] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 16:09:40] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 16:09:40] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 16:09:40] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 16:09:40] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 16:09:40] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 16:09:40] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 16:09:40] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 16:09:40] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 16:09:40] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 16:09:40] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 16:09:40] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 16:09:40] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 16:09:40] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 16:09:40] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 16:09:40] [client] 
+[2026-03-30 16:09:40] [client]   VITE v7.3.1  ready in 2939 ms
+[2026-03-30 16:09:40] [client] 
+[2026-03-30 16:09:40] [client]   ➜  Local:   http://localhost:8081/
+[2026-03-30 16:09:55] [client] (node:68290) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/tailwind.config.ts?id=1774858186654 is not specified and it doesn't parse as CommonJS.
+[2026-03-30 16:09:55] [client] Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+[2026-03-30 16:09:55] [client] To eliminate this warning, add "type": "module" to /Users/clarabellelim/Downloads/app_4ju450bfspzwc/package.json.
+[2026-03-30 16:09:55] [client] (Use `node --trace-warnings ...` to show where the warning was created)
+[2026-03-30 16:09:55] [client] 
+[2026-03-30 16:09:55] [client] A PostCSS plugin did not pass the `from` option to `postcss.parse`. This may cause imported assets to be incorrectly transformed. If you've recently added a PostCSS plugin that raised this warning, please contact the package author to fix the issue.
+[2026-03-30 16:23:03] [client] 4:23:03 PM [vite] (client) hmr update /client/src/index.tsx, /client/src/index.css
+[2026-03-30 16:23:05] [client] 4:23:05 PM [vite] (client) hmr invalidate /client/src/index.tsx Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2026-03-30 16:23:05] [client] 4:23:05 PM [vite] (client) page reload client/src/index.tsx
+[2026-03-30 16:36:26] [client] 4:36:26 PM [vite] (client) hmr update /client/src/pages/ScanPage/ScanPage.tsx, /client/src/index.css
+[2026-03-30 16:38:28] [client] 4:38:28 PM [vite] (client) hmr update /client/src/pages/ScanPage/ScanPage.tsx, /client/src/index.css
+[2026-03-30 16:39:16] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 16:39:16] [client] 
+[2026-03-30 16:39:16] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 16:39:16] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 16:39:16] [client] 
+[2026-03-30 16:39:27] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 16:39:27] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 16:39:27] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 16:39:27] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 16:39:27] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 16:39:27] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 16:39:27] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 16:39:27] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 16:39:27] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 16:39:27] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 16:39:27] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 16:39:27] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 16:39:27] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 16:39:27] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 16:39:27] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 16:39:27] [client] 
+[2026-03-30 16:39:27] [client]   VITE v7.3.1  ready in 9974 ms
+[2026-03-30 16:39:27] [client] 
+[2026-03-30 16:39:27] [client]   ➜  Local:   http://localhost:8081/
+[2026-03-30 16:39:42] [client] (node:92139) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/tailwind.config.ts?id=1774859975757 is not specified and it doesn't parse as CommonJS.
+[2026-03-30 16:39:42] [client] Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+[2026-03-30 16:39:42] [client] To eliminate this warning, add "type": "module" to /Users/clarabellelim/Downloads/app_4ju450bfspzwc/package.json.
+[2026-03-30 16:39:42] [client] (Use `node --trace-warnings ...` to show where the warning was created)
+[2026-03-30 16:39:43] [client] 
+[2026-03-30 16:39:43] [client] A PostCSS plugin did not pass the `from` option to `postcss.parse`. This may cause imported assets to be incorrectly transformed. If you've recently added a PostCSS plugin that raised this warning, please contact the package author to fix the issue.
+[2026-03-30 16:48:14] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 16:48:14] [client] 
+[2026-03-30 16:48:14] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 16:48:14] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 16:48:14] [client] 
+[2026-03-30 16:48:16] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 16:48:16] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 16:48:16] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 16:48:16] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 16:48:16] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 16:48:16] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 16:48:16] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 16:48:16] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 16:48:16] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 16:48:16] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 16:48:16] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 16:48:16] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 16:48:16] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 16:48:16] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 16:48:16] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 16:48:16] [client] 
+[2026-03-30 16:48:16] [client]   VITE v7.3.1  ready in 1978 ms
+[2026-03-30 16:48:16] [client] 
+[2026-03-30 16:48:16] [client]   ➜  Local:   http://localhost:8081/
+[2026-03-30 16:48:22] [client] (node:98583) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/tailwind.config.ts?id=1774860499520 is not specified and it doesn't parse as CommonJS.
+[2026-03-30 16:48:22] [client] Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+[2026-03-30 16:48:22] [client] To eliminate this warning, add "type": "module" to /Users/clarabellelim/Downloads/app_4ju450bfspzwc/package.json.
+[2026-03-30 16:48:22] [client] (Use `node --trace-warnings ...` to show where the warning was created)
+[2026-03-30 16:48:22] [client] 
+[2026-03-30 16:48:22] [client] A PostCSS plugin did not pass the `from` option to `postcss.parse`. This may cause imported assets to be incorrectly transformed. If you've recently added a PostCSS plugin that raised this warning, please contact the package author to fix the issue.
+[2026-03-30 16:57:23] [client] 4:57:23 PM [vite] (client) hmr update /client/src/pages/ScanPage/ScanPage.tsx, /client/src/index.css
+[2026-03-30 16:57:49] [client] 4:57:49 PM [vite] (client) hmr update /client/src/pages/ScanPage/ScanPage.tsx, /client/src/index.css
+[2026-03-30 17:32:38] [client] 5:32:38 PM [vite] (client) hmr update /client/src/pages/ReviewPage/ReviewPage.tsx, /client/src/pages/SendPage/SendPage.tsx, /client/src/index.css
+[2026-03-30 17:32:45] [client] 5:32:45 PM [vite] (client) hmr update /client/src/pages/ReviewPage/ReviewPage.tsx, /client/src/index.css
+[2026-03-30 17:38:31] [client] 5:38:31 PM [vite] http proxy error: /api/email-templates
+[2026-03-30 17:38:31] [client] AggregateError [ECONNREFUSED]: 
+[2026-03-30 17:38:31] [client]     at internalConnectMultiple (node:net:1134:18)
+[2026-03-30 17:38:31] [client]     at afterConnectMultiple (node:net:1715:7)
+[2026-03-30 17:45:27] [client] 5:45:27 PM [vite] (client) hmr update /client/src/pages/ReviewPage/ReviewPage.tsx, /client/src/index.css
+[2026-03-30 17:45:29] [client] 5:45:29 PM [vite] http proxy error: /api/influencers?page=1&pageSize=20
+[2026-03-30 17:45:29] [client] AggregateError [ECONNREFUSED]: 
+[2026-03-30 17:45:29] [client]     at internalConnectMultiple (node:net:1134:18)
+[2026-03-30 17:45:29] [client]     at afterConnectMultiple (node:net:1715:7)
+[2026-03-30 17:45:44] [client] [Proxy] Error: 
+[2026-03-30 17:45:44] [client] [Proxy] Connection error, waiting for service recovery...
+[2026-03-30 17:45:49] [client] [Proxy] Service did not recover within timeout, returning 502
+[2026-03-30 17:45:49] [client] 5:45:49 PM [vite] http proxy error: /api/email/send
+[2026-03-30 17:45:49] [client] AggregateError [ECONNREFUSED]: 
+[2026-03-30 17:45:49] [client]     at internalConnectMultiple (node:net:1134:18)
+[2026-03-30 17:45:49] [client]     at afterConnectMultiple (node:net:1715:7)
+[2026-03-30 17:47:14] [client] [Proxy] Error: 
+[2026-03-30 17:47:14] [client] [Proxy] Connection error, waiting for service recovery...
+[2026-03-30 17:47:19] [client] [Proxy] Service did not recover within timeout, returning 502
+[2026-03-30 17:47:21] [client] [Proxy] Error: 
+[2026-03-30 17:47:21] [client] [Proxy] Connection error, waiting for service recovery...
+[2026-03-30 17:47:26] [client] [Proxy] Service did not recover within timeout, returning 502
+[2026-03-30 17:47:37] [client] [Proxy] Error: 
+[2026-03-30 17:47:37] [client] [Proxy] Connection error, waiting for service recovery...
+[2026-03-30 17:47:42] [client] [Proxy] Service did not recover within timeout, returning 502
+[2026-03-30 17:47:47] [client] [Proxy] Error: 
+[2026-03-30 17:47:47] [client] [Proxy] Connection error, waiting for service recovery...
+[2026-03-30 17:47:52] [client] [Proxy] Service did not recover within timeout, returning 502
+[2026-03-30 17:47:59] [client] [Proxy] Error: 
+[2026-03-30 17:47:59] [client] [Proxy] Connection error, waiting for service recovery...
+[2026-03-30 17:48:04] [client] [Proxy] Service did not recover within timeout, returning 502
+[2026-03-30 17:49:27] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 17:49:27] [client] 
+[2026-03-30 17:49:27] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 17:49:27] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 17:49:27] [client] 
+[2026-03-30 17:49:28] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 17:49:28] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 17:49:28] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 17:49:28] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 17:49:28] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 17:49:28] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 17:49:28] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 17:49:28] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 17:49:28] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 17:49:28] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 17:49:28] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 17:49:28] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 17:49:28] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 17:49:28] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 17:49:28] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 17:49:28] [client] 
+[2026-03-30 17:49:28] [client]   VITE v7.3.1  ready in 1321 ms
+[2026-03-30 17:49:28] [client] 
+[2026-03-30 17:49:28] [client]   ➜  Local:   http://localhost:8081/
+[2026-03-30 17:49:29] [client] [Proxy] Error: 
+[2026-03-30 17:49:29] [client] [Proxy] Connection error, waiting for service recovery...
+[2026-03-30 17:49:34] [client] (node:42696) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/tailwind.config.ts?id=1774864172281 is not specified and it doesn't parse as CommonJS.
+[2026-03-30 17:49:34] [client] Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+[2026-03-30 17:49:34] [client] To eliminate this warning, add "type": "module" to /Users/clarabellelim/Downloads/app_4ju450bfspzwc/package.json.
+[2026-03-30 17:49:34] [client] (Use `node --trace-warnings ...` to show where the warning was created)
+[2026-03-30 17:49:34] [client] 
+[2026-03-30 17:49:34] [client] A PostCSS plugin did not pass the `from` option to `postcss.parse`. This may cause imported assets to be incorrectly transformed. If you've recently added a PostCSS plugin that raised this warning, please contact the package author to fix the issue.
+[2026-03-30 17:49:34] [client] [Proxy] Service did not recover within timeout, returning 502
+[2026-03-30 18:01:21] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 18:01:21] [client] 
+[2026-03-30 18:01:21] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 18:01:21] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 18:01:21] [client] 
+[2026-03-30 18:01:22] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 18:01:22] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 18:01:22] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 18:01:22] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 18:01:22] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 18:01:22] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 18:01:22] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 18:01:22] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 18:01:22] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 18:01:22] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 18:01:22] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 18:01:22] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 18:01:22] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 18:01:22] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 18:01:22] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 18:01:22] [client] 
+[2026-03-30 18:01:22] [client]   VITE v7.3.1  ready in 751 ms
+[2026-03-30 18:01:22] [client] 
+[2026-03-30 18:01:22] [client]   ➜  Local:   http://localhost:8081/
+[2026-03-30 18:01:27] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 18:01:27] [client] 
+[2026-03-30 18:01:27] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 18:01:27] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 18:01:27] [client] 
+[2026-03-30 18:01:28] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 18:01:28] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 18:01:28] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 18:01:28] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 18:01:28] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 18:01:28] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 18:01:28] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 18:01:28] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 18:01:28] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 18:01:28] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 18:01:28] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 18:01:28] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 18:01:28] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 18:01:28] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 18:01:28] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 18:01:28] [client] 
+[2026-03-30 18:01:28] [client]   VITE v7.3.1  ready in 658 ms
+[2026-03-30 18:01:28] [client] 
+[2026-03-30 18:01:28] [client]   ➜  Local:   http://localhost:8081/
+[2026-03-30 18:01:31] [client] (node:51624) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/tailwind.config.ts?id=1774864889753 is not specified and it doesn't parse as CommonJS.
+[2026-03-30 18:01:31] [client] Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+[2026-03-30 18:01:31] [client] To eliminate this warning, add "type": "module" to /Users/clarabellelim/Downloads/app_4ju450bfspzwc/package.json.
+[2026-03-30 18:01:31] [client] (Use `node --trace-warnings ...` to show where the warning was created)
+[2026-03-30 18:01:31] [client] 
+[2026-03-30 18:01:31] [client] A PostCSS plugin did not pass the `from` option to `postcss.parse`. This may cause imported assets to be incorrectly transformed. If you've recently added a PostCSS plugin that raised this warning, please contact the package author to fix the issue.
+[2026-03-30 18:10:21] [client] [Proxy] Error: 
+[2026-03-30 18:10:21] [client] [Proxy] Connection error, waiting for service recovery...
+[2026-03-30 18:10:25] [client] [Proxy] Service recovered, redirecting to /client/log
+[2026-03-30 18:25:51] [client] 6:25:51 PM [vite] http proxy error: /api/auth/status
+[2026-03-30 18:25:51] [client] AggregateError [ECONNREFUSED]: 
+[2026-03-30 18:25:51] [client]     at internalConnectMultiple (node:net:1134:18)
+[2026-03-30 18:25:51] [client]     at afterConnectMultiple (node:net:1715:7)
+[2026-03-30 18:25:51] [client] 6:25:51 PM [vite] http proxy error: /api/email-templates
+[2026-03-30 18:25:51] [client] AggregateError [ECONNREFUSED]: 
+[2026-03-30 18:25:51] [client]     at internalConnectMultiple (node:net:1134:18)
+[2026-03-30 18:25:51] [client]     at afterConnectMultiple (node:net:1715:7)
+[2026-03-30 18:28:33] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 18:28:33] [client] 
+[2026-03-30 18:28:33] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 18:28:33] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 18:28:33] [client] 
+[2026-03-30 18:28:34] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 18:28:34] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 18:28:34] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 18:28:34] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 18:28:34] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 18:28:34] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 18:28:34] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 18:28:34] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 18:28:34] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 18:28:34] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 18:28:34] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 18:28:34] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 18:28:34] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 18:28:34] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 18:28:34] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 18:28:34] [client] 
+[2026-03-30 18:28:34] [client]   VITE v7.3.1  ready in 988 ms
+[2026-03-30 18:28:34] [client] 
+[2026-03-30 18:28:34] [client]   ➜  Local:   http://localhost:8080/
+[2026-03-30 18:28:42] [client] (node:71153) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/tailwind.config.ts?id=1774866517816 is not specified and it doesn't parse as CommonJS.
+[2026-03-30 18:28:42] [client] Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+[2026-03-30 18:28:42] [client] To eliminate this warning, add "type": "module" to /Users/clarabellelim/Downloads/app_4ju450bfspzwc/package.json.
+[2026-03-30 18:28:42] [client] (Use `node --trace-warnings ...` to show where the warning was created)
+[2026-03-30 18:28:42] [client] 
+[2026-03-30 18:28:42] [client] A PostCSS plugin did not pass the `from` option to `postcss.parse`. This may cause imported assets to be incorrectly transformed. If you've recently added a PostCSS plugin that raised this warning, please contact the package author to fix the issue.
+[2026-03-30 18:29:42] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 18:29:42] [client] 
+[2026-03-30 18:29:42] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 18:29:42] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 18:29:42] [client] 
+[2026-03-30 18:29:43] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 18:29:43] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 18:29:43] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 18:29:43] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 18:29:43] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 18:29:43] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 18:29:43] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 18:29:43] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 18:29:43] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 18:29:43] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 18:29:43] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 18:29:43] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 18:29:43] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 18:29:43] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 18:29:43] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 18:29:43] [client] error when starting dev server:
+[2026-03-30 18:29:43] [client] Error: Port 8080 is already in use
+[2026-03-30 18:29:43] [client]     at Server.onError$1 (file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/node_modules/vite/dist/node/chunks/config.js:14933:28)
+[2026-03-30 18:29:43] [client]     at Server.emit (node:events:508:28)
+[2026-03-30 18:29:43] [client]     at emitErrorNT (node:net:1976:8)
+[2026-03-30 18:29:43] [client]     at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[2026-03-30 18:29:48] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 18:29:48] [client] 
+[2026-03-30 18:29:48] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 18:29:48] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 18:29:48] [client] 
+[2026-03-30 18:29:49] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 18:29:49] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 18:29:49] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 18:29:49] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 18:29:49] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 18:29:49] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 18:29:49] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 18:29:49] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 18:29:49] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 18:29:49] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 18:29:49] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 18:29:49] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 18:29:49] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 18:29:49] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 18:29:49] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 18:29:49] [client] 
+[2026-03-30 18:29:49] [client]   VITE v7.3.1  ready in 555 ms
+[2026-03-30 18:29:49] [client] 
+[2026-03-30 18:29:49] [client]   ➜  Local:   http://localhost:8080/
+[2026-03-30 18:29:50] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 18:29:50] [client] 
+[2026-03-30 18:29:50] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 18:29:50] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 18:29:50] [client] 
+[2026-03-30 18:29:51] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 18:29:51] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 18:29:51] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 18:29:51] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 18:29:51] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 18:29:51] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 18:29:51] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 18:29:51] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 18:29:51] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 18:29:51] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 18:29:51] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 18:29:51] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 18:29:51] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 18:29:51] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 18:29:51] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 18:29:51] [client] error when starting dev server:
+[2026-03-30 18:29:51] [client] Error: Port 8080 is already in use
+[2026-03-30 18:29:51] [client]     at Server.onError$1 (file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/node_modules/vite/dist/node/chunks/config.js:14933:28)
+[2026-03-30 18:29:51] [client]     at Server.emit (node:events:508:28)
+[2026-03-30 18:29:51] [client]     at emitErrorNT (node:net:1976:8)
+[2026-03-30 18:29:51] [client]     at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[2026-03-30 18:29:52] [client] (node:72326) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/tailwind.config.ts?id=1774866590525 is not specified and it doesn't parse as CommonJS.
+[2026-03-30 18:29:52] [client] Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+[2026-03-30 18:29:52] [client] To eliminate this warning, add "type": "module" to /Users/clarabellelim/Downloads/app_4ju450bfspzwc/package.json.
+[2026-03-30 18:29:52] [client] (Use `node --trace-warnings ...` to show where the warning was created)
+[2026-03-30 18:29:52] [client] 
+[2026-03-30 18:29:52] [client] A PostCSS plugin did not pass the `from` option to `postcss.parse`. This may cause imported assets to be incorrectly transformed. If you've recently added a PostCSS plugin that raised this warning, please contact the package author to fix the issue.
+[2026-03-30 18:29:58] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 18:29:58] [client] 
+[2026-03-30 18:29:58] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 18:29:58] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 18:29:58] [client] 
+[2026-03-30 18:30:00] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 18:30:00] [client] 
+[2026-03-30 18:30:00] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 18:30:00] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 18:30:00] [client] 
+[2026-03-30 18:30:02] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 18:30:02] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 18:30:02] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 18:30:02] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 18:30:02] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 18:30:02] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 18:30:02] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 18:30:02] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 18:30:02] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 18:30:02] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 18:30:02] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 18:30:02] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 18:30:02] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 18:30:02] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 18:30:02] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 18:30:02] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 18:30:02] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 18:30:02] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 18:30:02] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 18:30:02] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 18:30:02] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 18:30:02] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 18:30:02] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 18:30:02] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 18:30:02] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 18:30:02] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 18:30:02] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 18:30:02] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 18:30:02] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 18:30:02] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 18:30:02] [client] 
+[2026-03-30 18:30:02] [client]   VITE v7.3.1  ready in 1893 ms
+[2026-03-30 18:30:02] [client] 
+[2026-03-30 18:30:02] [client]   ➜  Local:   http://localhost:8080/
+[2026-03-30 18:30:02] [client] error when starting dev server:
+[2026-03-30 18:30:02] [client] Error: Port 8080 is already in use
+[2026-03-30 18:30:02] [client]     at Server.onError$1 (file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/node_modules/vite/dist/node/chunks/config.js:14933:28)
+[2026-03-30 18:30:02] [client]     at Server.emit (node:events:508:28)
+[2026-03-30 18:30:02] [client]     at emitErrorNT (node:net:1976:8)
+[2026-03-30 18:30:02] [client]     at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[2026-03-30 18:30:12] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 18:30:12] [client] 
+[2026-03-30 18:30:12] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 18:30:12] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 18:30:12] [client] 
+[2026-03-30 18:30:13] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 18:30:13] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 18:30:13] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 18:30:13] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 18:30:13] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 18:30:13] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 18:30:13] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 18:30:13] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 18:30:13] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 18:30:13] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 18:30:13] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 18:30:13] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 18:30:13] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 18:30:13] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 18:30:13] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 18:30:13] [client] 
+[2026-03-30 18:30:13] [client]   VITE v7.3.1  ready in 758 ms
+[2026-03-30 18:30:13] [client] 
+[2026-03-30 18:30:13] [client]   ➜  Local:   http://localhost:8080/
+[2026-03-30 18:30:14] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 18:30:14] [client] 
+[2026-03-30 18:30:14] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 18:30:14] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 18:30:14] [client] 
+[2026-03-30 18:30:14] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 18:30:14] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 18:30:14] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 18:30:14] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 18:30:14] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 18:30:14] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 18:30:14] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 18:30:14] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 18:30:14] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 18:30:14] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 18:30:14] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 18:30:14] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 18:30:14] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 18:30:14] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 18:30:15] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 18:30:15] [client] error when starting dev server:
+[2026-03-30 18:30:15] [client] Error: Port 8080 is already in use
+[2026-03-30 18:30:15] [client]     at Server.onError$1 (file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/node_modules/vite/dist/node/chunks/config.js:14933:28)
+[2026-03-30 18:30:15] [client]     at Server.emit (node:events:508:28)
+[2026-03-30 18:30:15] [client]     at emitErrorNT (node:net:1976:8)
+[2026-03-30 18:30:15] [client]     at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[2026-03-30 18:30:16] [client] (node:72749) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/tailwind.config.ts?id=1774866615211 is not specified and it doesn't parse as CommonJS.
+[2026-03-30 18:30:16] [client] Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+[2026-03-30 18:30:16] [client] To eliminate this warning, add "type": "module" to /Users/clarabellelim/Downloads/app_4ju450bfspzwc/package.json.
+[2026-03-30 18:30:16] [client] (Use `node --trace-warnings ...` to show where the warning was created)
+[2026-03-30 18:30:16] [client] 
+[2026-03-30 18:30:16] [client] A PostCSS plugin did not pass the `from` option to `postcss.parse`. This may cause imported assets to be incorrectly transformed. If you've recently added a PostCSS plugin that raised this warning, please contact the package author to fix the issue.
+[2026-03-30 18:30:21] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 18:30:21] [client] 
+[2026-03-30 18:30:21] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 18:30:21] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 18:30:21] [client] 
+[2026-03-30 18:30:22] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 18:30:22] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 18:30:22] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 18:30:22] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 18:30:22] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 18:30:22] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 18:30:22] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 18:30:22] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 18:30:22] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 18:30:22] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 18:30:22] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 18:30:22] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 18:30:22] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 18:30:22] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 18:30:22] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 18:30:22] [client] 
+[2026-03-30 18:30:22] [client]   VITE v7.3.1  ready in 402 ms
+[2026-03-30 18:30:22] [client] 
+[2026-03-30 18:30:22] [client]   ➜  Local:   http://localhost:8080/
+[2026-03-30 18:30:29] [client] (node:72976) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/tailwind.config.ts?id=1774866623680 is not specified and it doesn't parse as CommonJS.
+[2026-03-30 18:30:29] [client] Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+[2026-03-30 18:30:29] [client] To eliminate this warning, add "type": "module" to /Users/clarabellelim/Downloads/app_4ju450bfspzwc/package.json.
+[2026-03-30 18:30:29] [client] (Use `node --trace-warnings ...` to show where the warning was created)
+[2026-03-30 18:30:29] [client] 
+[2026-03-30 18:30:29] [client] A PostCSS plugin did not pass the `from` option to `postcss.parse`. This may cause imported assets to be incorrectly transformed. If you've recently added a PostCSS plugin that raised this warning, please contact the package author to fix the issue.
+[2026-03-30 18:30:33] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 18:30:33] [client] 
+[2026-03-30 18:30:33] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 18:30:33] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 18:30:33] [client] 
+[2026-03-30 18:30:34] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 18:30:34] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 18:30:34] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 18:30:34] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 18:30:34] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 18:30:34] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 18:30:34] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 18:30:34] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 18:30:34] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 18:30:34] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 18:30:34] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 18:30:34] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 18:30:34] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 18:30:34] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 18:30:34] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 18:30:34] [client] error when starting dev server:
+[2026-03-30 18:30:34] [client] Error: Port 8080 is already in use
+[2026-03-30 18:30:34] [client]     at Server.onError$1 (file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/node_modules/vite/dist/node/chunks/config.js:14933:28)
+[2026-03-30 18:30:34] [client]     at Server.emit (node:events:508:28)
+[2026-03-30 18:30:34] [client]     at emitErrorNT (node:net:1976:8)
+[2026-03-30 18:30:34] [client]     at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[2026-03-30 18:30:35] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 18:30:35] [client] 
+[2026-03-30 18:30:35] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 18:30:35] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 18:30:35] [client] 
+[2026-03-30 18:30:35] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 18:30:35] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 18:30:35] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 18:30:35] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 18:30:35] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 18:30:35] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 18:30:35] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 18:30:35] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 18:30:35] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 18:30:35] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 18:30:35] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 18:30:35] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 18:30:35] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 18:30:35] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 18:30:35] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 18:30:35] [client] error when starting dev server:
+[2026-03-30 18:30:35] [client] Error: Port 8080 is already in use
+[2026-03-30 18:30:35] [client]     at Server.onError$1 (file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/node_modules/vite/dist/node/chunks/config.js:14933:28)
+[2026-03-30 18:30:35] [client]     at Server.emit (node:events:508:28)
+[2026-03-30 18:30:35] [client]     at emitErrorNT (node:net:1976:8)
+[2026-03-30 18:30:35] [client]     at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[2026-03-30 18:30:40] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 18:30:40] [client] 
+[2026-03-30 18:30:40] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 18:30:40] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 18:30:40] [client] 
+[2026-03-30 18:30:40] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 18:30:40] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 18:30:40] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 18:30:40] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 18:30:40] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 18:30:40] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 18:30:40] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 18:30:40] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 18:30:40] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 18:30:40] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 18:30:40] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 18:30:40] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 18:30:40] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 18:30:40] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 18:30:40] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 18:30:40] [client] 
+[2026-03-30 18:30:40] [client]   VITE v7.3.1  ready in 367 ms
+[2026-03-30 18:30:40] [client] 
+[2026-03-30 18:30:40] [client]   ➜  Local:   http://localhost:8080/
+[2026-03-30 18:30:43] [client] (node:73350) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/tailwind.config.ts?id=1774866641864 is not specified and it doesn't parse as CommonJS.
+[2026-03-30 18:30:43] [client] Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+[2026-03-30 18:30:43] [client] To eliminate this warning, add "type": "module" to /Users/clarabellelim/Downloads/app_4ju450bfspzwc/package.json.
+[2026-03-30 18:30:43] [client] (Use `node --trace-warnings ...` to show where the warning was created)
+[2026-03-30 18:30:43] [client] 
+[2026-03-30 18:30:43] [client] A PostCSS plugin did not pass the `from` option to `postcss.parse`. This may cause imported assets to be incorrectly transformed. If you've recently added a PostCSS plugin that raised this warning, please contact the package author to fix the issue.
+[2026-03-30 18:31:08] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 18:31:08] [client] 
+[2026-03-30 18:31:08] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 18:31:08] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 18:31:08] [client] 
+[2026-03-30 18:31:09] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 18:31:09] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 18:31:09] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 18:31:09] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 18:31:09] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 18:31:09] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 18:31:09] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 18:31:09] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 18:31:09] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 18:31:09] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 18:31:09] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 18:31:09] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 18:31:09] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 18:31:09] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 18:31:09] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 18:31:09] [client] error when starting dev server:
+[2026-03-30 18:31:09] [client] Error: Port 8080 is already in use
+[2026-03-30 18:31:09] [client]     at Server.onError$1 (file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/node_modules/vite/dist/node/chunks/config.js:14933:28)
+[2026-03-30 18:31:09] [client]     at Server.emit (node:events:508:28)
+[2026-03-30 18:31:09] [client]     at emitErrorNT (node:net:1976:8)
+[2026-03-30 18:31:09] [client]     at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[2026-03-30 18:31:09] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 18:31:09] [client] 
+[2026-03-30 18:31:09] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 18:31:09] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 18:31:09] [client] 
+[2026-03-30 18:31:10] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 18:31:10] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 18:31:10] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 18:31:10] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 18:31:10] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 18:31:10] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 18:31:10] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 18:31:10] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 18:31:10] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 18:31:10] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 18:31:10] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 18:31:10] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 18:31:10] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 18:31:10] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 18:31:10] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 18:31:10] [client] error when starting dev server:
+[2026-03-30 18:31:10] [client] Error: Port 8080 is already in use
+[2026-03-30 18:31:10] [client]     at Server.onError$1 (file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/node_modules/vite/dist/node/chunks/config.js:14933:28)
+[2026-03-30 18:31:10] [client]     at Server.emit (node:events:508:28)
+[2026-03-30 18:31:10] [client]     at emitErrorNT (node:net:1976:8)
+[2026-03-30 18:31:10] [client]     at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[2026-03-30 18:31:17] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 18:31:17] [client] 
+[2026-03-30 18:31:17] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 18:31:17] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 18:31:17] [client] 
+[2026-03-30 18:31:18] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 18:31:18] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 18:31:18] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 18:31:18] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 18:31:18] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 18:31:18] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 18:31:18] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 18:31:18] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 18:31:18] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 18:31:18] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 18:31:18] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 18:31:18] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 18:31:18] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 18:31:18] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 18:31:18] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 18:31:18] [client] 
+[2026-03-30 18:31:18] [client]   VITE v7.3.1  ready in 563 ms
+[2026-03-30 18:31:18] [client] 
+[2026-03-30 18:31:18] [client]   ➜  Local:   http://localhost:8080/
+[2026-03-30 18:31:20] [client] (node:73871) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/tailwind.config.ts?id=1774866679536 is not specified and it doesn't parse as CommonJS.
+[2026-03-30 18:31:20] [client] Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+[2026-03-30 18:31:20] [client] To eliminate this warning, add "type": "module" to /Users/clarabellelim/Downloads/app_4ju450bfspzwc/package.json.
+[2026-03-30 18:31:20] [client] (Use `node --trace-warnings ...` to show where the warning was created)
+[2026-03-30 18:31:20] [client] 
+[2026-03-30 18:31:20] [client] A PostCSS plugin did not pass the `from` option to `postcss.parse`. This may cause imported assets to be incorrectly transformed. If you've recently added a PostCSS plugin that raised this warning, please contact the package author to fix the issue.
+[2026-03-30 18:32:12] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 18:32:12] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 18:32:12] [client] 
+[2026-03-30 18:32:12] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 18:32:12] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 18:32:12] [client] 
+[2026-03-30 18:32:12] [client] 
+[2026-03-30 18:32:12] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 18:32:12] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 18:32:12] [client] 
+[2026-03-30 18:32:13] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 18:32:13] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 18:32:13] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 18:32:13] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 18:32:13] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 18:32:13] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 18:32:13] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 18:32:13] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 18:32:13] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 18:32:13] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 18:32:13] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 18:32:13] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 18:32:13] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 18:32:13] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 18:32:13] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 18:32:13] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 18:32:13] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 18:32:13] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 18:32:13] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 18:32:13] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 18:32:13] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 18:32:13] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 18:32:13] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 18:32:13] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 18:32:13] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 18:32:13] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 18:32:13] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 18:32:13] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 18:32:13] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 18:32:13] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 18:32:13] [client] error when starting dev server:
+[2026-03-30 18:32:13] [client] Error: Port 8080 is already in use
+[2026-03-30 18:32:13] [client]     at Server.onError$1 (file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/node_modules/vite/dist/node/chunks/config.js:14933:28)
+[2026-03-30 18:32:13] [client]     at Server.emit (node:events:508:28)
+[2026-03-30 18:32:13] [client]     at emitErrorNT (node:net:1976:8)
+[2026-03-30 18:32:13] [client]     at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[2026-03-30 18:32:13] [client] error when starting dev server:
+[2026-03-30 18:32:13] [client] Error: Port 8080 is already in use
+[2026-03-30 18:32:13] [client]     at Server.onError$1 (file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/node_modules/vite/dist/node/chunks/config.js:14933:28)
+[2026-03-30 18:32:13] [client]     at Server.emit (node:events:508:28)
+[2026-03-30 18:32:13] [client]     at emitErrorNT (node:net:1976:8)
+[2026-03-30 18:32:13] [client]     at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[2026-03-30 18:32:26] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 18:32:26] [client] 
+[2026-03-30 18:32:26] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 18:32:26] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 18:32:26] [client] 
+[2026-03-30 18:32:26] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 18:32:26] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 18:32:26] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 18:32:26] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 18:32:26] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 18:32:26] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 18:32:26] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 18:32:26] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 18:32:26] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 18:32:26] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 18:32:26] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 18:32:26] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 18:32:26] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 18:32:26] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 18:32:26] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 18:32:26] [client] 
+[2026-03-30 18:32:26] [client]   VITE v7.3.1  ready in 600 ms
+[2026-03-30 18:32:26] [client] 
+[2026-03-30 18:32:26] [client]   ➜  Local:   http://localhost:8080/
+[2026-03-30 18:32:29] [client] (node:74710) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/tailwind.config.ts?id=1774866747870 is not specified and it doesn't parse as CommonJS.
+[2026-03-30 18:32:29] [client] Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+[2026-03-30 18:32:29] [client] To eliminate this warning, add "type": "module" to /Users/clarabellelim/Downloads/app_4ju450bfspzwc/package.json.
+[2026-03-30 18:32:29] [client] (Use `node --trace-warnings ...` to show where the warning was created)
+[2026-03-30 18:32:29] [client] 
+[2026-03-30 18:32:29] [client] A PostCSS plugin did not pass the `from` option to `postcss.parse`. This may cause imported assets to be incorrectly transformed. If you've recently added a PostCSS plugin that raised this warning, please contact the package author to fix the issue.
+[2026-03-30 18:33:16] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 18:33:16] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 18:33:16] [client] 
+[2026-03-30 18:33:16] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 18:33:16] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 18:33:16] [client] 
+[2026-03-30 18:33:16] [client] 
+[2026-03-30 18:33:16] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 18:33:16] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 18:33:16] [client] 
+[2026-03-30 18:33:17] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 18:33:17] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 18:33:17] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 18:33:17] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 18:33:17] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 18:33:17] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 18:33:17] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 18:33:17] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 18:33:17] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 18:33:17] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 18:33:17] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 18:33:17] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 18:33:17] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 18:33:17] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 18:33:17] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 18:33:17] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 18:33:17] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 18:33:17] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 18:33:17] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 18:33:17] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 18:33:17] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 18:33:17] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 18:33:17] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 18:33:17] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 18:33:17] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 18:33:17] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 18:33:17] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 18:33:17] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 18:33:17] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 18:33:17] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 18:33:17] [client] error when starting dev server:
+[2026-03-30 18:33:17] [client] Error: Port 8080 is already in use
+[2026-03-30 18:33:17] [client]     at Server.onError$1 (file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/node_modules/vite/dist/node/chunks/config.js:14933:28)
+[2026-03-30 18:33:17] [client]     at Server.emit (node:events:508:28)
+[2026-03-30 18:33:17] [client]     at emitErrorNT (node:net:1976:8)
+[2026-03-30 18:33:17] [client]     at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[2026-03-30 18:33:17] [client] error when starting dev server:
+[2026-03-30 18:33:17] [client] Error: Port 8080 is already in use
+[2026-03-30 18:33:17] [client]     at Server.onError$1 (file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/node_modules/vite/dist/node/chunks/config.js:14933:28)
+[2026-03-30 18:33:17] [client]     at Server.emit (node:events:508:28)
+[2026-03-30 18:33:17] [client]     at emitErrorNT (node:net:1976:8)
+[2026-03-30 18:33:17] [client]     at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[2026-03-30 18:33:38] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 18:33:38] [client] 
+[2026-03-30 18:33:38] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 18:33:38] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 18:33:38] [client] 
+[2026-03-30 18:33:38] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 18:33:38] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 18:33:38] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 18:33:38] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 18:33:38] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 18:33:38] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 18:33:38] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 18:33:38] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 18:33:38] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 18:33:38] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 18:33:38] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 18:33:38] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 18:33:38] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 18:33:38] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 18:33:38] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 18:33:38] [client] 
+[2026-03-30 18:33:38] [client]   VITE v7.3.1  ready in 587 ms
+[2026-03-30 18:33:38] [client] 
+[2026-03-30 18:33:38] [client]   ➜  Local:   http://localhost:8080/
+[2026-03-30 18:33:41] [client] (node:75604) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/tailwind.config.ts?id=1774866819930 is not specified and it doesn't parse as CommonJS.
+[2026-03-30 18:33:41] [client] Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+[2026-03-30 18:33:41] [client] To eliminate this warning, add "type": "module" to /Users/clarabellelim/Downloads/app_4ju450bfspzwc/package.json.
+[2026-03-30 18:33:41] [client] (Use `node --trace-warnings ...` to show where the warning was created)
+[2026-03-30 18:33:41] [client] 
+[2026-03-30 18:33:41] [client] A PostCSS plugin did not pass the `from` option to `postcss.parse`. This may cause imported assets to be incorrectly transformed. If you've recently added a PostCSS plugin that raised this warning, please contact the package author to fix the issue.
+[2026-03-30 18:34:21] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 18:34:21] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 18:34:22] [client] 
+[2026-03-30 18:34:22] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 18:34:22] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 18:34:22] [client] 
+[2026-03-30 18:34:22] [client] 
+[2026-03-30 18:34:22] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 18:34:22] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 18:34:22] [client] 
+[2026-03-30 18:34:25] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 18:34:25] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 18:34:25] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 18:34:25] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 18:34:25] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 18:34:25] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 18:34:25] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 18:34:25] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 18:34:25] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 18:34:25] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 18:34:25] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 18:34:25] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 18:34:25] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 18:34:25] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 18:34:25] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 18:34:25] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 18:34:25] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 18:34:25] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 18:34:25] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 18:34:25] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 18:34:25] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 18:34:25] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 18:34:25] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 18:34:25] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 18:34:25] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 18:34:25] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 18:34:25] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 18:34:25] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 18:34:25] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 18:34:25] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 18:34:25] [client] error when starting dev server:
+[2026-03-30 18:34:25] [client] Error: Port 8080 is already in use
+[2026-03-30 18:34:25] [client]     at Server.onError$1 (file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/node_modules/vite/dist/node/chunks/config.js:14933:28)
+[2026-03-30 18:34:25] [client]     at Server.emit (node:events:508:28)
+[2026-03-30 18:34:25] [client]     at emitErrorNT (node:net:1976:8)
+[2026-03-30 18:34:25] [client]     at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[2026-03-30 18:34:25] [client] error when starting dev server:
+[2026-03-30 18:34:25] [client] Error: Port 8080 is already in use
+[2026-03-30 18:34:25] [client]     at Server.onError$1 (file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/node_modules/vite/dist/node/chunks/config.js:14933:28)
+[2026-03-30 18:34:25] [client]     at Server.emit (node:events:508:28)
+[2026-03-30 18:34:25] [client]     at emitErrorNT (node:net:1976:8)
+[2026-03-30 18:34:25] [client]     at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+[2026-03-30 18:35:02] [client] npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[2026-03-30 18:35:02] [client] 
+[2026-03-30 18:35:02] [client] > fullstack-nestjs-template@2.2.1 dev:client
+[2026-03-30 18:35:02] [client] > NODE_ENV=development vite --config vite.config.ts
+[2026-03-30 18:35:02] [client] 
+[2026-03-30 18:35:03] [client] [route-parser] Generated routes.json (7 routes)
+[2026-03-30 18:35:03] [client] [Middleware] Registered Express compatibility layer for Connect/Vite
+[2026-03-30 18:35:03] [client] [Middleware] Registered: dev-logs at /dev/logs
+[2026-03-30 18:35:03] [client]   GET /dev/logs/app/trace/:traceId - Get log entries by trace ID
+[2026-03-30 18:35:03] [client]   GET /dev/logs/trace/recent - Get recent trace calls with pagination and optional path/method filters
+[2026-03-30 18:35:03] [client]   GET /dev/logs/files/:fileName - Get paginated log file content by file name
+[2026-03-30 18:35:03] [client]   GET /dev/logs/server-logs - Get server logs in ServerLog format (compatible with frontend)
+[2026-03-30 18:35:03] [client]   GET /dev/logs/trace/trigger/list - Get trigger list (automation trigger) in trace.log
+[2026-03-30 18:35:03] [client]   GET /dev/logs/trace/trigger/:instanceID - Get trigger detail (automation trigger) in trace.log by instanceID
+[2026-03-30 18:35:03] [client]   GET /dev/logs/api-list - Get all API routes grouped by module
+[2026-03-30 18:35:03] [client] [Middleware] Registered: openapi at /dev
+[2026-03-30 18:35:03] [client]   GET /dev/openapi.json - Serve enhanced OpenAPI specification with source code references
+[2026-03-30 18:35:03] [client] [Middleware] Registered: collect-logs at /dev/logs
+[2026-03-30 18:35:03] [client]   POST /dev/logs/collect - Collect logs from client.
+[2026-03-30 18:35:03] [client] [html-output] Written to: /Users/clarabellelim/Downloads/app_4ju450bfspzwc/dist/client/index.html
+[2026-03-30 18:35:03] [client] 
+[2026-03-30 18:35:03] [client]   VITE v7.3.1  ready in 864 ms
+[2026-03-30 18:35:03] [client] 
+[2026-03-30 18:35:03] [client]   ➜  Local:   http://localhost:8080/
+[2026-03-30 18:35:06] [client] (node:76636) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/clarabellelim/Downloads/app_4ju450bfspzwc/tailwind.config.ts?id=1774866904758 is not specified and it doesn't parse as CommonJS.
+[2026-03-30 18:35:06] [client] Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+[2026-03-30 18:35:06] [client] To eliminate this warning, add "type": "module" to /Users/clarabellelim/Downloads/app_4ju450bfspzwc/package.json.
+[2026-03-30 18:35:06] [client] (Use `node --trace-warnings ...` to show where the warning was created)
+[2026-03-30 18:35:06] [client] 
+[2026-03-30 18:35:06] [client] A PostCSS plugin did not pass the `from` option to `postcss.parse`. This may cause imported assets to be incorrectly transformed. If you've recently added a PostCSS plugin that raised this warning, please contact the package author to fix the issue.
